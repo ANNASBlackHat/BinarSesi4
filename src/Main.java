@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     //psvm
@@ -34,5 +37,8 @@ public class Main {
         });
 
         ibu2.setUsiaKandungan(10);
+
+        AnakTiri anakTiri = new AnakTiri();
+        anakTiri.menikah();
     }
 }
